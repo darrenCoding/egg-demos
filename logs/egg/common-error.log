@@ -1,0 +1,160 @@
+2017-02-03 16:09:49,794 ERROR 23294 [-/127.0.0.1/-/8ms GET /news] nodejs.TypeError: Cannot read property 'getTopStories' of undefined
+    at Object.newsListController (/Users/linfang/Documents/leju/egg/app/controller/news.js:7:49)
+    at next (native)
+    at onFulfilled (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:50:10)
+
+pid: 23294
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:13:12,332 ERROR 23351 [-/127.0.0.1/-/6983ms GET /news] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13554065.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":60,"createSocketErrorCount":0,"closeSocketCount":32,"errorSocketCount":0,"timeoutSocketCount":31,"requestCount":60,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":27},"sockets":{"hacker-news.firebaseio.com:443::::::::":1},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 49
+data: undefined
+path: '/v0/item/13554065.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5411, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13554065.json' ], timing: null, remoteAddress: '104.197.250.13', remotePort: 443 }
+pid: 23351
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:18:17,853 ERROR 23384 [-/undefined/-/8890ms GET /news?page=1] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13558170.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":36,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":52,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":26},"sockets":{"hacker-news.firebaseio.com:443::::::::":9},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 3
+data: undefined
+path: '/v0/item/13558170.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5371, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13558170.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23384
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:18:51,669 ERROR 23384 [-/127.0.0.1/-/8126ms GET /news?page=2] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13549937.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":96,"createSocketErrorCount":0,"closeSocketCount":68,"errorSocketCount":0,"timeoutSocketCount":66,"requestCount":122,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":28},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 108
+data: undefined
+path: '/v0/item/13549937.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5415, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13549937.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23384
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:19:19,339 ERROR 23384 [-/127.0.0.1/-/6973ms GET /news?page=2] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13552916.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":126,"createSocketErrorCount":0,"closeSocketCount":99,"errorSocketCount":0,"timeoutSocketCount":96,"requestCount":152,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":27},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 153
+data: undefined
+path: '/v0/item/13552916.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5396, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13552916.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23384
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:24:30,631 ERROR 23587 [-/127.0.0.1/-/1301ms GET /news/item/0] nodejs.TypeError: Cannot read property 'kids' of null
+    at Object.newsDetailController (/Users/linfang/Documents/leju/egg/app/controller/news.js:15:39)
+    at next (native)
+    at onFulfilled (/Users/linfang/Documents/leju/egg/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 23587
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:24:53,677 ERROR 23587 [-/127.0.0.1/-/7347ms GET /news/item/13556914] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13557815.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":54,"createSocketErrorCount":0,"closeSocketCount":34,"errorSocketCount":0,"timeoutSocketCount":33,"requestCount":55,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":20},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 37
+data: undefined
+path: '/v0/item/13557815.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5414, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13557815.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23587
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:25:03,112 ERROR 23587 [-/127.0.0.1/-/6780ms GET /news/item/13556914] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13557837.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":76,"createSocketErrorCount":0,"closeSocketCount":55,"errorSocketCount":0,"timeoutSocketCount":53,"requestCount":75,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":18},"sockets":{"hacker-news.firebaseio.com:443::::::::":3},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 78
+data: undefined
+path: '/v0/item/13557837.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5373, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13557837.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23587
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:28:06,185 ERROR 23627 [-/127.0.0.1/-/7530ms GET /news?page=2] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13552016.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":30,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":28,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":26},"sockets":{"hacker-news.firebaseio.com:443::::::::":2},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 3
+data: undefined
+path: '/v0/item/13552016.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5463, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13552016.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23627
+hostname: linfangdeMacBook-Pro.local
+
+2017-02-03 16:28:19,563 ERROR 23627 [-/127.0.0.1/-/7169ms GET /news?page=2] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/13556895.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":60,"createSocketErrorCount":0,"closeSocketCount":32,"errorSocketCount":0,"timeoutSocketCount":28,"requestCount":55,"freeSockets":{"hacker-news.firebaseio.com:443::::::::":25},"sockets":{"hacker-news.firebaseio.com:443::::::::":3},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/linfang/Documents/leju/egg/node_modules/.2.19.0@urllib/lib/urllib.js:715:15)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ResponseTimeoutError'
+requestId: 36
+data: undefined
+path: '/v0/item/13556895.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5379, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/13556895.json' ], timing: null, remoteAddress: '104.154.130.226', remotePort: 443 }
+pid: 23627
+hostname: linfangdeMacBook-Pro.local
+

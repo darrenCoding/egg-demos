@@ -1,0 +1,22 @@
+{
+    "name": "egg-demo",
+    "version": "1.0.0",
+    "description": "a egg demo",
+    "scripts": {
+        "dev": "egg-bin dev"
+    },
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "cheerio": "^0.22.0",
+        "egg-bin": "^2.0.2"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "dependencies": {
+        "egg": "^0.9.0",
+        "egg-view-nunjucks": "^1.0.0",
+        "moment": "^2.17.1"
+    }
+}

@@ -1,0 +1,32 @@
+2017-02-03 15:34:58,498 INFO 22415 [egg:watcher:agent] watcher start success
+2017-02-03 15:34:58,318 INFO 22415 [egg:logger] init all loggers with options: {"dir":"/Users/linfang/Documents/leju/egg/logs/egg","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-03 15:34:58,425 INFO 22415 [egg:agent] create an AgentWorkerClient for "watcher"
+2017-02-03 15:39:28,376 INFO 22536 [egg:watcher:agent] watcher start success
+2017-02-03 15:39:28,177 INFO 22536 [egg:logger] init all loggers with options: {"dir":"/Users/linfang/Documents/leju/egg/logs/egg","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-03 15:39:28,293 INFO 22536 [egg:agent] create an AgentWorkerClient for "watcher"
+2017-02-03 15:47:42,581 INFO 22770 [egg:watcher:agent] watcher start success
+2017-02-03 15:47:42,396 INFO 22770 [egg:logger] init all loggers with options: {"dir":"/Users/linfang/Documents/leju/egg/logs/egg","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-03 15:47:42,507 INFO 22770 [egg:agent] create an AgentWorkerClient for "watcher"
+2017-02-03 16:09:40,594 INFO 23291 [egg:watcher:agent] watcher start success
+2017-02-03 16:09:40,402 INFO 23291 [egg:logger] init all loggers with options: {"dir":"/Users/linfang/Documents/leju/egg/logs/egg","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-03 16:09:40,514 INFO 23291 [egg:agent] create an AgentWorkerClient for "watcher"
+2017-02-03 16:12:37,361 INFO 23350 [egg:watcher:agent] watcher start success
+2017-02-03 16:12:37,178 INFO 23350 [egg:logger] init all loggers with options: {"dir":"/Users/linfang/Documents/leju/egg/logs/egg","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-03 16:12:37,289 INFO 23350 [egg:agent] create an AgentWorkerClient for "watcher"
+2017-02-03 16:16:35,151 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/config/config.default.js change
+2017-02-03 16:20:07,799 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/config/config.local.js rename
+2017-02-03 16:22:30,178 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/middleware rename
+2017-02-03 16:24:09,732 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/service/HackerNews.js change
+2017-02-03 16:25:16,997 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/service/HackerNews.js change
+2017-02-03 16:28:39,463 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/router.js change
+2017-02-03 16:28:45,212 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/controller/home.js change
+2017-02-03 16:28:49,827 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/controller/home.js change
+2017-02-03 16:28:56,130 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/controller/news.js change
+2017-02-03 16:28:57,976 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/controller/news.js change
+2017-02-03 16:29:01,411 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/controller/home.js change
+2017-02-03 16:29:17,875 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/service/HackerNews.js change
+2017-02-03 16:29:20,387 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/service/HackerNews.js change
+2017-02-03 16:30:09,286 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/service/HackerNews.js change
+2017-02-03 16:30:42,200 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/app/router.js change
+2017-02-03 16:30:48,115 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/config/config.default.js change
+2017-02-03 16:30:54,024 WARN 23350 [agent:development] reload worker because /Users/linfang/Documents/leju/egg/config/plugin.js change
